@@ -1,0 +1,41 @@
+{
+  "description": "Example test configuration for Power BI data validation",
+  "source_sheet": 0,
+  "expected_row_count": null,
+  "expected_columns": [
+    "CustomerID",
+    "CustomerName",
+    "OrderDate",
+    "TotalAmount",
+    "ProductCategory"
+  ],
+  "aggregate_tests": [
+    {
+      "column": "TotalAmount",
+      "operation": "sum",
+      "tolerance": 0.01
+    },
+    {
+      "column": "TotalAmount",
+      "operation": "mean",
+      "tolerance": 0.01
+    },
+    {
+      "column": "CustomerID",
+      "operation": "count",
+      "tolerance": 0
+    }
+  ],
+  "sample_tests": [
+    {
+      "column": "CustomerName",
+      "row_index": 0,
+      "expected_value": "John Doe"
+    },
+    {
+      "column": "ProductCategory",
+      "row_index": 0,
+      "expected_value": "Electronics"
+    }
+  ]
+}

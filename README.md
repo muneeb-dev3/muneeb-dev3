@@ -26,8 +26,24 @@ I'm a dedicated **Software Engineering Student** and **mid-level Python Develope
 ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square\&logo=react\&logoColor=black)
 ![VS Code](https://img.shields.io/badge/-VS_Code-007ACC?style=flat-square\&logo=visual-studio-code\&logoColor=white)
 ![GitHub Copilot](https://img.shields.io/badge/-GitHub_Copilot-000000?style=flat-square\&logo=github\&logoColor=white)
+![Power BI](https://img.shields.io/badge/-Power_BI-F2C811?style=flat-square\&logo=powerbi\&logoColor=black)
 
 ## Featured Projects 💻
+
+### Power BI Data Validation Framework
+
+![Power BI Badge](https://img.shields.io/badge/Testing-Power_BI-F2C811?style=flat-square)
+
+A comprehensive **testing framework for Power BI projects** that helps validate M code transformations against source Excel files. Just like writing test cases in software development, this toolkit ensures data integrity and transformation accuracy in Power BI projects.
+
+**Features:**
+* 📊 Manual validation guide using Power Query Editor
+* 🐍 Python automation script for data comparison
+* 📝 M code validation query examples
+* ✅ Comprehensive testing checklists
+* 🚀 Quick start guide for beginners
+
+**[View Framework →](./powerbi-testing/)**
 
 ### Ecommerce Website
 
