@@ -1,6 +1,9 @@
-# Sample Data Generator for Testing
+#!/usr/bin/env python3
+"""
+Sample Data Generator for Testing
 
 This script generates sample Excel files to test the validation framework.
+"""
 
 import pandas as pd
 from datetime import datetime, timedelta
