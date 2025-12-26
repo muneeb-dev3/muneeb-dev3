@@ -1,0 +1,27 @@
+# Sample data files - don't commit to repository
+sample_source.xlsx
+sample_powerbi_export.csv
+test_config.json
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
