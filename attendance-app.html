@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Tracker</title>
+    <link rel="stylesheet" href="attendance-app.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📋 Attendance Tracker</h1>
+        </header>
+
+        <div class="controls">
+            <div class="date-selector">
+                <label for="month">Month:</label>
+                <select id="month">
+                    <option value="0">January</option>
+                    <option value="1">February</option>
+                    <option value="2">March</option>
+                    <option value="3">April</option>
+                    <option value="4">May</option>
+                    <option value="5">June</option>
+                    <option value="6">July</option>
+                    <option value="7">August</option>
+                    <option value="8">September</option>
+                    <option value="9">October</option>
+                    <option value="10">November</option>
+                    <option value="11">December</option>
+                </select>
+
+                <label for="year">Year:</label>
+                <select id="year"></select>
+            </div>
+
+            <div class="person-controls">
+                <input type="text" id="personName" placeholder="Enter person's name">
+                <button id="addPerson">Add Person</button>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="people-list">
+                <h2>People</h2>
+                <div id="peopleContainer"></div>
+            </div>
+
+            <div class="calendar-section">
+                <h2>Calendar</h2>
+                <div id="calendar"></div>
+            </div>
+        </div>
+
+        <div class="summary-section">
+            <h2>Monthly Summary</h2>
+            <div id="summary"></div>
+        </div>
+    </div>
+
+    <script src="attendance-app.js"></script>
+</body>
+</html>
